@@ -17,7 +17,7 @@ Route::get('promo', [HomeController::class, 'showPromo']);
 Route::get('home', [ClientController::class, 'showHome']);
 Route::get('about', [ClientController::class, 'showAbout']);
 Route::get('produk', [ClientController::class, 'showProduk']);
-Route::post('client/filter', [UserController::class, 'filter']);
+Route::post('filter', [ClientController::class, 'filter']);
 
 
 // Resource Router + Prefix Hanya Berguna Untuk CRUD

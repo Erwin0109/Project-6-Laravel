@@ -15,11 +15,11 @@
           <div class="row">
             <div class="col-md-3">
               <div class="card">
-                <div class="card-header bg-dark text-white">
+                <div class="card-header">
                   FILTER
                 </div>
                 <div class="card-body">
-                  <form action="{{url('client/produk/filter')}}" method="post">
+                  <form action="{{('filter')}}" method="post">
                     @csrf
                     <div class="form-group">
                       <label for="" class="control-label">Nama</label>
